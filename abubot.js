@@ -806,18 +806,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Beltah is connecting...");
+                console.log("ℹ️ Bot is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Beltah Connected to WhatsApp! ☺️");
+                console.log("✅ Bot Connected to WhatsApp!");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Beltah Md is Online 🕸\n\n");
+                console.log("Bot is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading Beltah Commands ...\n");
+                console.log("Loading Commands ...\n");
                 fs.readdirSync(__dirname + "/beltah").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -848,18 +848,15 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`❒ ❒⁠ ⁠⁠⁠⁠𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐈𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 ❒ ⁠⁠⁠⁠❒⁠⁠⁠⁠
-╭─────────❒⁠⁠⁠⁠              
-> Prefix   : [ ${prefixe} ]   
-> Mode   : ${md}
-> Plugins  : ${evt.cm.length} 
-> Ram   : 129.99GB
-> Platform : Chrome linux
-> Owner  : Beltah Ke
-╰─────────❒${readmore}
- 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇
-> Type [  ${prefixe}  Channel ] and follow our official *BELTAH-MD* channel . To get latest updates on this BOT.
- ⁠⁠╰─────────────────❒`;
+                let cmsg =`        ❒❒⁠ ⁠⁠⁠⁠*BMW-MD* ❒❒
+╭─────────────❒⁠⁠⁠⁠              
+❒ *Prefix*   : [ ${prefixe} ]   
+❒ *Mode*   : ${md} 
+❒ *Hours(GMT)* : ${temps}
+❒ *Date* : ${date}
+╰─────────────❒
+ *IBRAHIM ADAMS SCIENCE*
+`;
 
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
