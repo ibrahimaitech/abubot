@@ -1,9 +1,9 @@
 {
-  "name":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗",
-  "description":"Deploy now your 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 bot, BELTAH-MD was developed by Beltah.Make sure you fill all valuables accordingly. ",
+  "name":"WABOT",
+  "description":"Deploy now your  bot, This bot was developed by Ibrahim Adams.Make sure you fill all valuables accordingly. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-  "repository":"https://github.com/Beltahmd/beltah-md",
+  "logo":"https://telegra.ph/file/7ec4aa710486c41fa26d6.jpg",
+  "repository":"https://github.com/ibrahimaitech/BMW-MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗",
+      "value":"WABOT",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+      "value":"https://telegra.ph/file/7ec4aa710486c41fa26d6.jpg",
       "required":false
        
      },
@@ -55,7 +55,7 @@
 	,
     "HEROKU_APY_KEY": {
     "description": "insert your heroku api-key ",
-     "value":"HRKU-8c311194-cd14-430a-a93c-1cdd8b9ea8c8",
+     "value":"",
 	"required" :true
     },
   "HEROKU_APP_NAME": {
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Beltah Tech 254🇰🇪"
+    "value": "Ibrahim Adams"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254114141192"
+    "value": "254710772666"
   },
     "WARN_COUNT":
   {
