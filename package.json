@@ -1,18 +1,18 @@
 {
-  "name": "abubot",
+  "name": "Bmw-md",
   "version": "1.0.0",
   "description": "",
-  "main": "abubot.js",
+  "main": "ibrahim.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "node abubot.js",
-    "beltah": "pm2 start abubot.js --attach --max-memory-restart 490M",
+    "s": "node ibrahim.js",
+    "beltah": "pm2 start ibrahim.js --attach --max-memory-restart 490M",
     "c": "tsc"
   },
   "keywords": [
     "bot",
     "Baileys",
-    "abubot",
+    "ibrahim",
     "whatsapp",
     "whatsapp-bot",
     "Faouz995"
