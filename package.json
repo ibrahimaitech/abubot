@@ -1,23 +1,23 @@
 {
-  "name": "beltah-md",
+  "name": "abubot",
   "version": "1.0.0",
   "description": "",
-  "main": "beltah.js",
+  "main": "abubot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "node beltah.js",
-    "beltah": "pm2 start beltah.js --attach --max-memory-restart 490M",
+    "s": "node abubot.js",
+    "beltah": "pm2 start abubot.js --attach --max-memory-restart 490M",
     "c": "tsc"
   },
   "keywords": [
     "bot",
     "Baileys",
-    "Beltah",
+    "abubot",
     "whatsapp",
     "whatsapp-bot",
     "Faouz995"
   ],
-  "author": "Beltah Tech Team",
+  "author": "Ibrahim Adams",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
