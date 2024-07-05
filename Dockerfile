@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/ibrahimaitech/abubot  /root/BmwMD
-WORKDIR /root/bmwmd/
+RUN git clone https://github.com/ibrahimaitech/abubot  /root/ibrahim
+WORKDIR /root/ibrahim/
 
 
 COPY package.json .
@@ -21,4 +21,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "beltar.js"]
+CMD ["node", "abubot.js"]
